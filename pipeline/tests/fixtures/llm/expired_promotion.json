@@ -1,0 +1,26 @@
+{
+  "name": "expired_promotion",
+  "description": "A promotion whose expiry has already passed relative to as_of.",
+  "as_of": "2026-09-01T00:00:00+00:00",
+  "evidence_text": "Launch promotion: 50,000 free tokens. Offer expires 2026-03-01.",
+  "model_outputs": [
+    {
+      "offer_kind": {
+        "value": "promotion",
+        "evidence_id": "ev-1",
+        "quote": "Launch promotion",
+        "start_offset": 0,
+        "end_offset": 16
+      },
+      "expires_at": {
+        "evidence_id": "ev-1",
+        "quote": "2026-03-01",
+        "start_offset": 52,
+        "end_offset": 62
+      }
+    }
+  ],
+  "expected": {
+    "offer_status_after_code_decision": "expired"
+  }
+}

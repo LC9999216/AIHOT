@@ -1,0 +1,18 @@
+{
+  "name": "conflicting_statements",
+  "description": "One page both advertises a free tier and states it was discontinued.",
+  "evidence_text": "Acme offers a free tier with 100,000 tokens per month. Update: the free tier was discontinued and the plan is now paid only.",
+  "model_outputs": [
+    {
+      "quota_text": {
+        "evidence_id": "ev-1",
+        "quote": "the free tier was discontinued and the plan is now paid only",
+        "start_offset": 63,
+        "end_offset": 123
+      }
+    }
+  ],
+  "expected": {
+    "note": "extraction returns grounded text only; contradiction resolution is deterministic code, not the model"
+  }
+}

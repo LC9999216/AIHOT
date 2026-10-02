@@ -1,0 +1,14 @@
+{
+  "name": "third_party_aggregator",
+  "provider_id": "acme",
+  "url": "https://free-apis.example/list/acme",
+  "source_type": "blog",
+  "title": "Top free APIs 2026",
+  "claim": "acme offers a free tier",
+  "content_excerpt": "Acme offers a free tier according to our community survey.",
+  "retrieved_at": "2026-08-01T00:00:00+00:00",
+  "effective_at": null,
+  "published_at": "2026-05-01T00:00:00+00:00",
+  "expected_officiality": "UNCONFIRMED",
+  "expected_normalized_domain": "free-apis.example"
+}

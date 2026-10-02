@@ -1,0 +1,15 @@
+{
+  "name": "contradictory_current_paid",
+  "provider_id": "acme",
+  "url": "https://acme.ai/pricing",
+  "source_type": "pricing",
+  "title": "Acme Pricing",
+  "claim": "subscription required",
+  "content_excerpt": "Plans are paid only; subscription required. There is no free tier.",
+  "retrieved_at": "2026-08-20T00:00:00+00:00",
+  "effective_at": "2026-08-15T00:00:00+00:00",
+  "published_at": "2026-08-15T00:00:00+00:00",
+  "expected_officiality": "UNCONFIRMED",
+  "expected_normalized_domain": "acme.ai",
+  "note": "current pricing overrides an older blog claiming a free tier"
+}

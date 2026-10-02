@@ -1,0 +1,14 @@
+{
+  "name": "ambiguous_free_wording",
+  "provider_id": "acme",
+  "url": "https://acme.ai/docs/free",
+  "source_type": "docs",
+  "title": "Acme Docs",
+  "claim": "there might be a free tier",
+  "content_excerpt": "There might be a free tier available at some point; details could be announced later.",
+  "retrieved_at": "2026-08-01T00:00:00+00:00",
+  "effective_at": "2026-07-01T00:00:00+00:00",
+  "published_at": null,
+  "expected_officiality": "UNCONFIRMED",
+  "expected_normalized_domain": "acme.ai"
+}

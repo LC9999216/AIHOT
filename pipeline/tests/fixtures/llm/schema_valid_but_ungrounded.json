@@ -1,0 +1,17 @@
+{
+  "name": "schema_valid_but_ungrounded",
+  "description": "Schema-valid field whose quote does not occur in the evidence text.",
+  "evidence_text": "Acme offers a free tier with 100,000 tokens per month.",
+  "model_output": {
+    "quota_text": {
+      "evidence_id": "ev-1",
+      "quote": "one million free tokens every day",
+      "start_offset": 0,
+      "end_offset": 31
+    }
+  },
+  "expected": {
+    "accepted": false,
+    "reason_contains": "ungrounded"
+  }
+}

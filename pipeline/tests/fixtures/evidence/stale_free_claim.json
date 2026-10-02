@@ -1,0 +1,15 @@
+{
+  "name": "stale_free_claim",
+  "provider_id": "acme",
+  "url": "https://acme.ai/blog/free-launch",
+  "source_type": "blog",
+  "title": "Free launch promotion",
+  "claim": "free promotion",
+  "content_excerpt": "Launch promotion: free promotion credits for the first 1000 developers.",
+  "retrieved_at": "2025-06-01T00:00:00+00:00",
+  "effective_at": "2025-06-01T00:00:00+00:00",
+  "published_at": "2025-06-01T00:00:00+00:00",
+  "expected_officiality": "UNCONFIRMED",
+  "expected_normalized_domain": "acme.ai",
+  "note": "older than 180 days relative to a 2026-09-01 as_of; never confirms alone"
+}

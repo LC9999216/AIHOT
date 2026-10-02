@@ -1,0 +1,33 @@
+{
+  "name": "ssrf_targets",
+  "note": "Non-public targets that must always be rejected before connecting. Split by the check that must catch them: static URL policy vs DNS resolution.",
+  "rejected_static": [
+    "http://127.0.0.1/pricing",
+    "http://10.0.0.5/pricing",
+    "http://192.168.1.10/pricing",
+    "http://172.16.5.4/pricing",
+    "http://169.254.169.254/latest/meta-data/",
+    "http://0.0.0.0/pricing",
+    "http://224.0.0.1/pricing",
+    "http://[::1]/pricing",
+    "http://[fe80::1]/pricing",
+    "http://[fd00::1]/pricing",
+    "http://[ff02::1]/pricing",
+    "http://[::]/pricing",
+    "https://user:pass@acme.ai/pricing",
+    "http://acme.ai:8080/pricing",
+    "http://acme.ai:22/pricing",
+    "ftp://acme.ai/pricing",
+    "file:///etc/passwd"
+  ],
+  "rejected_dns": {
+    "internal.local": ["10.1.2.3"],
+    "metadata.google.internal": ["169.254.169.254"],
+    "localhost": ["127.0.0.1"],
+    "dual-stack.evil.example": ["93.184.216.34", "10.0.0.7"]
+  },
+  "accepted_urls": [
+    "https://acme.ai/pricing",
+    "http://acme.ai/docs"
+  ]
+}

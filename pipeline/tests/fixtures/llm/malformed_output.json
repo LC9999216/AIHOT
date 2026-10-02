@@ -1,0 +1,11 @@
+{
+  "name": "malformed_output",
+  "description": "Output that is not valid JSON even after one repair attempt.",
+  "evidence_text": "Acme offers a free tier.",
+  "model_outputs": ["{not json", "still not json"],
+  "expected": {
+    "accepted": false,
+    "repairs_used": 1,
+    "reason_contains": "malformed"
+  }
+}
