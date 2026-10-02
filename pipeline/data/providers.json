@@ -1,0 +1,106 @@
+{
+  "items": [
+    {
+      "api": {
+        "api_documentation_url": "https://www.assemblyai.com/pricing",
+        "base_url": null,
+        "openai_compatible": null
+      },
+      "canonical_domain": "www.assemblyai.com",
+      "evidence_ids": [],
+      "first_discovered": "2026-09-01T00:00:00Z",
+      "free_offer": {
+        "access_method": "unknown",
+        "description": null,
+        "expires_at": null,
+        "offer_kind": "trial",
+        "offer_status": "active",
+        "quota_mode": "one_time",
+        "quota_text": null,
+        "renewal_period": null
+      },
+      "free_score": null,
+      "id": "assemblyai",
+      "last_event_id": "463496477d3278300c66d6ed9dc248527595a226",
+      "last_verified": null,
+      "limits": {
+        "other": null,
+        "rpd": null,
+        "rpm": null,
+        "tpd": null,
+        "tpm": null
+      },
+      "metadata": {
+        "confirmation_as_of": "2026-09-01T00:00:00+00:00",
+        "confirmed_by": "confirm_provider"
+      },
+      "models": [],
+      "official_docs": [
+        "https://www.assemblyai.com/pricing"
+      ],
+      "provider": "AssemblyAI",
+      "requirements": {
+        "card_required": null,
+        "commercial_use_allowed": null,
+        "phone_required": null,
+        "regional_restrictions": null,
+        "signup_required": null
+      },
+      "revision": 2,
+      "score_metadata": null,
+      "status": "UNCERTAIN",
+      "verification_confidence": null
+    },
+    {
+      "api": {
+        "api_documentation_url": "https://openrouter.ai/docs/api-reference/limits",
+        "base_url": null,
+        "openai_compatible": null
+      },
+      "canonical_domain": "openrouter.ai",
+      "evidence_ids": [],
+      "first_discovered": "2026-09-01T00:00:00Z",
+      "free_offer": {
+        "access_method": "unknown",
+        "description": null,
+        "expires_at": null,
+        "offer_kind": "free_tier",
+        "offer_status": "active",
+        "quota_mode": "renewing",
+        "quota_text": null,
+        "renewal_period": null
+      },
+      "free_score": null,
+      "id": "openrouter",
+      "last_event_id": "7c607ffa0e84c717c2a51196cb90ff2a359e5681",
+      "last_verified": null,
+      "limits": {
+        "other": null,
+        "rpd": null,
+        "rpm": null,
+        "tpd": null,
+        "tpm": null
+      },
+      "metadata": {
+        "confirmation_as_of": "2026-09-01T00:00:00+00:00",
+        "confirmed_by": "confirm_provider"
+      },
+      "models": [],
+      "official_docs": [
+        "https://openrouter.ai/docs/api-reference/limits"
+      ],
+      "provider": "OpenRouter",
+      "requirements": {
+        "card_required": null,
+        "commercial_use_allowed": null,
+        "phone_required": null,
+        "regional_restrictions": null,
+        "signup_required": null
+      },
+      "revision": 2,
+      "score_metadata": null,
+      "status": "UNCERTAIN",
+      "verification_confidence": null
+    }
+  ]
+}

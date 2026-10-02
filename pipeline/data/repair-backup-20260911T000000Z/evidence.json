@@ -1,0 +1,1384 @@
+{
+  "items": [
+    {
+      "candidate_id": "cloudflare-workers-ai",
+      "claim": "10,000 Neurons/day, all account plans",
+      "content_excerpt": "10,000 Neurons/day, all account plans",
+      "content_fingerprint": "8344e710f6fecbba2d2201a63307cca7efe3fc13",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-052e91950040a999d72188d4b3b5b94d",
+      "normalized_domain": "developers.cloudflare.com",
+      "officiality": "OFFICIAL",
+      "provider_id": "cloudflare-workers-ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://developers.cloudflare.com/workers-ai/platform/pricing",
+      "validation_notes": [
+        "TA-002: anchor for 'cloudflare-workers-ai' allows this subdomain"
+      ]
+    },
+    {
+      "candidate_id": "voyage-ai",
+      "claim": "200M free tokens on current embedding models (voyage-4, voyage-4-lite, voyage-context-4, voyage-code-3) and on rerankers (rerank-2.5 family); voyage-multimodal-3.5 gets 200M text tokens + 150B pixels — a large one-time complimentary allotment per model",
+      "content_excerpt": "200M free tokens on current embedding models (voyage-4, voyage-4-lite, voyage-context-4, voyage-code-3) and on rerankers (rerank-2.5 family); voyage-multimodal-3.5 gets 200M text tokens + 150B pixels — a large one-time complimentary allotment per model",
+      "content_fingerprint": "861f1dfe8f88cfc28370206d3f2a48de8371532d",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-0801ee3966ce90218146c74a790a98e8",
+      "normalized_domain": "docs.voyageai.com",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "voyage-ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://docs.voyageai.com/docs/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "poolside",
+      "claim": "Laguna XS 2.1 (33B) and Laguna S 2.1 (118B) are free in Preview via a self-serve developer API key",
+      "content_excerpt": "Laguna XS 2.1 (33B) and Laguna S 2.1 (118B) are free in Preview via a self-serve developer API key",
+      "content_fingerprint": "3a7b5a94cc31e6d26a40ee6f620f038743d3c834",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-0847b86ebcdc2ecadcdad2edd9ccdec1",
+      "normalized_domain": "docs.poolside.ai",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "poolside",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "api-docs",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://docs.poolside.ai/api/overview",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "zai-glm",
+      "claim": "GLM-4.5-Flash, GLM-4.7-Flash (text), and GLM-4.6V-Flash (vision) are officially listed as $0 cost (input, cached input, and output) on a permanent basis",
+      "content_excerpt": "GLM-4.5-Flash, GLM-4.7-Flash (text), and GLM-4.6V-Flash (vision) are officially listed as $0 cost (input, cached input, and output) on a permanent basis",
+      "content_fingerprint": "03a1b798333d2f27af1a020fef501cbe317a1c66",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-13ee8901f96e45cbe737ca8106fec320",
+      "normalized_domain": "docs.z.ai",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "zai-glm",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://docs.z.ai/guides/overview/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "camb-ai",
+      "claim": "2,000 credits/month covering ~25K characters of MARS TTS, 125 min of STT, plus limited watermarked dubbing and translation (incl. 5 OCR pages)",
+      "content_excerpt": "2,000 credits/month covering ~25K characters of MARS TTS, 125 min of STT, plus limited watermarked dubbing and translation (incl. 5 OCR pages)",
+      "content_fingerprint": "91280a19bf29f6c39bf240267166761b6ba2418e",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-17a9c0dd9b962e57439fca8cfd8eda6a",
+      "normalized_domain": "www.camb.ai",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "camb-ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://www.camb.ai/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "rime",
+      "claim": "3,000 free TTS minutes for every new account (Starter plan)",
+      "content_excerpt": "3,000 free TTS minutes for every new account (Starter plan)",
+      "content_fingerprint": "1a066be7d28de7fc8f7865359b7ca9b566f18b53",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-2287d3441ea90c135dea7e369362d661",
+      "normalized_domain": "rime.ai",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "rime",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://rime.ai/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "cartesia",
+      "claim": "20,000 credits/month (~27 min of Sonic TTS or ~1h51 of Ink speech-to-text)",
+      "content_excerpt": "20,000 credits/month (~27 min of Sonic TTS or ~1h51 of Ink speech-to-text)",
+      "content_fingerprint": "ffc691e9d0527ae978d00c6e6a86211161764451",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-22ccf5dc510ed7b2eb7777b3e1ab5ae0",
+      "normalized_domain": "cartesia.ai",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "cartesia",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://cartesia.ai/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "wandb-inference",
+      "claim": "$100/month of Serverless Inference credits on the Free plan (default spending cap; offer for a limited time)",
+      "content_excerpt": "$100/month of Serverless Inference credits on the Free plan (default spending cap; offer for a limited time)",
+      "content_fingerprint": "4e7d816a7f7a15c92ccc43696c92f3d832e686c9",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-2710f48b84a7b09a30693f54e6d3f2cf",
+      "normalized_domain": "docs.wandb.ai",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "wandb-inference",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "docs",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://docs.wandb.ai/inference/usage-limits",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "typhoon",
+      "claim": "Free to use research showcase API — all Typhoon models at $0",
+      "content_excerpt": "Free to use research showcase API — all Typhoon models at $0",
+      "content_fingerprint": "a5e35ba4ee2acfb4dc7343592dd81b6bcd288790",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-2dcd50278292c46ea869e6c7738a24a8",
+      "normalized_domain": "docs.opentyphoon.ai",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "typhoon",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "docs",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://docs.opentyphoon.ai/en/faq",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "baseten",
+      "claim": "New accounts receive free credits; Baseten's current pricing page does not state the amount",
+      "content_excerpt": "New accounts receive free credits; Baseten's current pricing page does not state the amount",
+      "content_fingerprint": "90569c326614b396ab3753ef3b130898f273fae9",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-352766c81752feab30547688a5230094",
+      "normalized_domain": "www.baseten.co",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "baseten",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://www.baseten.co/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "cerebras",
+      "claim": "$5 in free credits for new accounts, usable across all public models",
+      "content_excerpt": "$5 in free credits for new accounts, usable across all public models",
+      "content_fingerprint": "db2d7a1992c0c8b8e645e097bc90effb91354497",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-3531c4bf82813c6d597364fc79fcdbc4",
+      "normalized_domain": "inference-docs.cerebras.ai",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "cerebras",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "docs",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://inference-docs.cerebras.ai/support/rate-limits",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "twelve-labs",
+      "claim": "Free plan: the Marengo Embed API for all input types (video, audio, image, text) at no cost, plus ~600 min indexing",
+      "content_excerpt": "Free plan: the Marengo Embed API for all input types (video, audio, image, text) at no cost, plus ~600 min indexing",
+      "content_fingerprint": "d5fe64fb97d3587b6f369caa7c844944b3f20499",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-36f5e4ac7af938d24e2b3ca61f8fd124",
+      "normalized_domain": "www.twelvelabs.io",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "twelve-labs",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://www.twelvelabs.io/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "modal",
+      "claim": "$30/month recurring credit (Starter plan)",
+      "content_excerpt": "$30/month recurring credit (Starter plan)",
+      "content_fingerprint": "4ac6f51c2ba307f440c2cb387aaa5e0918f5dafc",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-46546196e0a0793c9b59513b393ac9a9",
+      "normalized_domain": "modal.com",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "modal",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://modal.com/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "nebius",
+      "claim": "$1 trial credit, valid for 30 days",
+      "content_excerpt": "$1 trial credit, valid for 30 days",
+      "content_fingerprint": "91b6b3164a47dd76397f732a0895996f7ba5eb99",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-493695100523578298dec00fdb131a96",
+      "normalized_domain": "docs.tokenfactory.nebius.com",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "nebius",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "docs",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://docs.tokenfactory.nebius.com/",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "nutrient",
+      "claim": "5,000 credits/month (renews; no rollover) — ~5,000 text-parse pages, fewer for OCR-heavy 'Understand'/'Agentic' parsing (9-18 credits/page)",
+      "content_excerpt": "5,000 credits/month (renews; no rollover) — ~5,000 text-parse pages, fewer for OCR-heavy 'Understand'/'Agentic' parsing (9-18 credits/page)",
+      "content_fingerprint": "5c57b134d8b1d89cf43bc7be533c37426ad6ca52",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-4d8f4bd673cba0939ac1514750afe1f1",
+      "normalized_domain": "www.nutrient.io",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "nutrient",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://www.nutrient.io/api/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "retell-ai",
+      "claim": "$10 in free credits plus 20 free concurrent calls — voice-agent orchestration (STT + LLM + TTS)",
+      "content_excerpt": "$10 in free credits plus 20 free concurrent calls — voice-agent orchestration (STT + LLM + TTS)",
+      "content_fingerprint": "7f52ba5a041f54696bcbadef1b403562d3f06c39",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-4ee639df188f07c5c75664e7f16bb256",
+      "normalized_domain": "www.retellai.com",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "retell-ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://www.retellai.com/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "deepgram",
+      "claim": "$200 free credit on signup (no card, no expiration) — Nova speech-to-text and Aura text-to-speech at pay-as-you-go rates",
+      "content_excerpt": "$200 free credit on signup (no card, no expiration) — Nova speech-to-text and Aura text-to-speech at pay-as-you-go rates",
+      "content_fingerprint": "4cd86847c3fdacbd795d0419100e8500b7556a41",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-50501ecd0697acfa7c25c495af47f1b4",
+      "normalized_domain": "deepgram.com",
+      "officiality": "OFFICIAL",
+      "provider_id": "deepgram",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://deepgram.com/pricing",
+      "validation_notes": [
+        "TA-001: exact configured anchor domain for 'deepgram'"
+      ]
+    },
+    {
+      "candidate_id": "ai21",
+      "claim": "$10 trial credit, valid 3 months",
+      "content_excerpt": "$10 trial credit, valid 3 months",
+      "content_fingerprint": "cb3e518b989acd7c3fcb6db0ae5f42f24e037ecf",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-56881a74cd92d38bf579e1c338cfa963",
+      "normalized_domain": "docs.ai21.com",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "ai21",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "docs",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://docs.ai21.com/docs/usage-cost",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "pinecone-inference",
+      "claim": "Starter (free) plan: 5M tokens/mo for embedding models (llama-text-embed-v2, multilingual-e5-large) and 500 requests/mo for the bge-reranker-v2-m3 rerank model",
+      "content_excerpt": "Starter (free) plan: 5M tokens/mo for embedding models (llama-text-embed-v2, multilingual-e5-large) and 500 requests/mo for the bge-reranker-v2-m3 rerank model",
+      "content_fingerprint": "e275d791028a33b4d12acc39fcfcc3d809c71d94",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-56a34c5f3aac4d1c61d111fdfcbaff3c",
+      "normalized_domain": "www.pinecone.io",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "pinecone-inference",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://www.pinecone.io/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "assemblyai",
+      "claim": "$50 free credit on signup (no card) — pre-recorded & streaming speech-to-text, Speech Understanding, and an OpenAI-compatible LLM Gateway (25+ models)",
+      "content_excerpt": "$50 free credit on signup (no card) — pre-recorded & streaming speech-to-text, Speech Understanding, and an OpenAI-compatible LLM Gateway (25+ models)",
+      "content_fingerprint": "c8d665dd38a04c1ac9668653de201e60e21d6e9d",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-5717f69a76452c1f1e3d4dc06bf29b69",
+      "normalized_domain": "www.assemblyai.com",
+      "officiality": "OFFICIAL",
+      "provider_id": "assemblyai",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://www.assemblyai.com/pricing",
+      "validation_notes": [
+        "TA-002: anchor for 'assemblyai' allows this subdomain"
+      ]
+    },
+    {
+      "candidate_id": "openrouter",
+      "claim": "A rotating set of models with a :free suffix (~14 today; count fluctuates), single API across many providers",
+      "content_excerpt": "A rotating set of models with a :free suffix (~14 today; count fluctuates), single API across many providers",
+      "content_fingerprint": "72f68b8b679064d99664b90c77d8380d30ab46b1",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-5b9895df93494fc7dd1abb88d4aa1b86",
+      "normalized_domain": "openrouter.ai",
+      "officiality": "OFFICIAL",
+      "provider_id": "openrouter",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "api-docs",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://openrouter.ai/docs/api-reference/limits",
+      "validation_notes": [
+        "TA-001: exact configured anchor domain for 'openrouter'"
+      ]
+    },
+    {
+      "candidate_id": "lmnt",
+      "claim": "15,000 characters/month of TTS, with unlimited voice clones",
+      "content_excerpt": "15,000 characters/month of TTS, with unlimited voice clones",
+      "content_fingerprint": "b4502ab5b6fb02ba7350b28d3f1f4502837e2232",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-5be5c5018b744d6a112c69f4db3900ba",
+      "normalized_domain": "www.lmnt.com",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "lmnt",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://www.lmnt.com/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "nanonets",
+      "claim": "$50 in free credits on signup (one-time) across data-extraction / OCR workflows",
+      "content_excerpt": "$50 in free credits on signup (one-time) across data-extraction / OCR workflows",
+      "content_fingerprint": "37f095ec81a36f9e81bf85d1de5bbe8d491e90ba",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-5d5bd4a6a522d6933fe03799187b913a",
+      "normalized_domain": "nanonets.com",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "nanonets",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://nanonets.com/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "alibaba-model-studio",
+      "claim": "1,000,000 tokens (example figure, varies by model), international/Singapore region only",
+      "content_excerpt": "1,000,000 tokens (example figure, varies by model), international/Singapore region only",
+      "content_fingerprint": "18df4a6700358e9772a446efa553a745fecb143b",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-60d9f67fd855b112565f6a2849831b23",
+      "normalized_domain": "www.alibabacloud.com",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "alibaba-model-studio",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "page",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/new-free-quota",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "fish-audio",
+      "claim": "8,000 credits/month (~7 min of generation, up to 500 characters per generation); TTS, STT and voice cloning",
+      "content_excerpt": "8,000 credits/month (~7 min of generation, up to 500 characters per generation); TTS, STT and voice cloning",
+      "content_fingerprint": "a28eb97c942f67b2b669d3893d56d63d20536ea8",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-62275cba9e51768124c56af613fd0463",
+      "normalized_domain": "fish.audio",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "fish-audio",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://fish.audio/plan",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "rev-ai",
+      "claim": "Free credits equivalent to 5 hours of Reverb ASR (speech-to-text), usable across all Rev AI products",
+      "content_excerpt": "Free credits equivalent to 5 hours of Reverb ASR (speech-to-text), usable across all Rev AI products",
+      "content_fingerprint": "84df959ff65aaf0d2826b26938bd1a5ea6a926ca",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-69564a2a8d11af80bebe86e68fc5a2ab",
+      "normalized_domain": "www.rev.ai",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "rev-ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://www.rev.ai/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "scaleway",
+      "claim": "1,000,000 tokens free + 60 min Whisper transcription; billing starts at token 1,000,001",
+      "content_excerpt": "1,000,000 tokens free + 60 min Whisper transcription; billing starts at token 1,000,001",
+      "content_fingerprint": "689135b958695a4121f1b313b91298fecffd579f",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-6b377f463930180d1d75d359d7fedac0",
+      "normalized_domain": "www.scaleway.com",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "scaleway",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://www.scaleway.com/en/pricing/model-as-a-service",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "cohere",
+      "claim": "Trial (evaluation) API keys covering chat, embed and rerank",
+      "content_excerpt": "Trial (evaluation) API keys covering chat, embed and rerank",
+      "content_fingerprint": "007c230b779231ebc98c060717a09e086a960bf5",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-6d86f8f9baa775d36091507d100cd4b0",
+      "normalized_domain": "docs.cohere.com",
+      "officiality": "OFFICIAL",
+      "provider_id": "cohere",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "docs",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://docs.cohere.com/docs/rate-limits",
+      "validation_notes": [
+        "TA-002: anchor for 'cohere' allows this subdomain"
+      ]
+    },
+    {
+      "candidate_id": "pollinations",
+      "claim": "Free hosted image models (Flux, Turbo, Stable Diffusion) via a simple GET URL; also text and audio. No signup required to start",
+      "content_excerpt": "Free hosted image models (Flux, Turbo, Stable Diffusion) via a simple GET URL; also text and audio. No signup required to start",
+      "content_fingerprint": "63d58ca1674a263227a774606a43a888e1135365",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-6de96c8d5ea06b45211a16743b4f0ad3",
+      "normalized_domain": "github.com",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "pollinations",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "page",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://github.com/pollinations/pollinations/blob/master/APIDOCS.md",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "speechmatics",
+      "claim": "3,000 minutes (50 hours)/month speech-to-text + 1,000,000 characters (~20 hrs)/month text-to-speech",
+      "content_excerpt": "3,000 minutes (50 hours)/month speech-to-text + 1,000,000 characters (~20 hrs)/month text-to-speech",
+      "content_fingerprint": "3f1ebe477bba47105b5d6895b63fe330dee96eef",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-73ffc0f1005be97a3fd6bac6f4b9141c",
+      "normalized_domain": "www.speechmatics.com",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "speechmatics",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://www.speechmatics.com/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "nvidia-nim",
+      "claim": "Trial credit, phone verification required",
+      "content_excerpt": "Trial credit, phone verification required",
+      "content_fingerprint": "21da854b48496e3d761ba9f85f2f123170526387",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-7906303fc90bb5b1fac3c9eae0a04db8",
+      "normalized_domain": "build.nvidia.com",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "nvidia-nim",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "page",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://build.nvidia.com/",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "elevenlabs",
+      "claim": "10,000 credits/month shared across Text-to-Speech, Speech-to-Text and more (~10 min TTS/month)",
+      "content_excerpt": "10,000 credits/month shared across Text-to-Speech, Speech-to-Text and more (~10 min TTS/month)",
+      "content_fingerprint": "b9ad6f8199c15e08ae68653caef54833c98e147e",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-7db44b8abaf6f17f5b67086aa5e9eac2",
+      "normalized_domain": "elevenlabs.io",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "elevenlabs",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://elevenlabs.io/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "photoroom",
+      "claim": "10 free production calls on the Remove Background API (one-time) plus 1,000 sandbox calls/month on the Image Editing API (watermarked)",
+      "content_excerpt": "10 free production calls on the Remove Background API (one-time) plus 1,000 sandbox calls/month on the Image Editing API (watermarked)",
+      "content_fingerprint": "a8a6910245324f7192e849477efef36271f48765",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-7f388b12152a409403a5a4d34bb7fe82",
+      "normalized_domain": "www.photoroom.com",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "photoroom",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://www.photoroom.com/api/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "fireworks-ai",
+      "claim": "$1 trial credit",
+      "content_excerpt": "$1 trial credit",
+      "content_fingerprint": "85793dd6aa22ad42e0197cf19cb523977df415ad",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-815bdbc7103e737e52c402d5a74f7df2",
+      "normalized_domain": "docs.fireworks.ai",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "fireworks-ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://docs.fireworks.ai/faq-new/billing-pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "runware",
+      "claim": "$2 in signup credits across first-party image models (FLUX.1/FLUX.2, Stable Diffusion 3, SDXL) on the Sonic Inference Engine — hundreds to thousands of generations",
+      "content_excerpt": "$2 in signup credits across first-party image models (FLUX.1/FLUX.2, Stable Diffusion 3, SDXL) on the Sonic Inference Engine — hundreds to thousands of generations",
+      "content_fingerprint": "a3685f7ad6e85239df0601d7f58c3691aa7e869a",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-8427a198188b3315d4cef59e413abbe7",
+      "normalized_domain": "runware.ai",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "runware",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://runware.ai/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "google-gemini",
+      "claim": "Gemini 2.5 Flash, 2.5 Flash-Lite, 2.5 Pro (limited), embeddings, TTS models",
+      "content_excerpt": "Gemini 2.5 Flash, 2.5 Flash-Lite, 2.5 Pro (limited), embeddings, TTS models",
+      "content_fingerprint": "a4256195f5a095ffd73dec99b6412598e249ea66",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-8990df4dbdec1aa6c21b8f3e04b68983",
+      "normalized_domain": "ai.google.dev",
+      "officiality": "OFFICIAL",
+      "provider_id": "google-gemini",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "api-docs",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://ai.google.dev/gemini-api/docs/rate-limits",
+      "validation_notes": [
+        "TA-001: exact configured anchor domain for 'google-gemini'"
+      ]
+    },
+    {
+      "candidate_id": "mixedbread",
+      "claim": "Starter plan: $5 one-time credit (no card) — embeddings (mxbai-embed-large-v1), reranking, and multimodal search over PDF/image/doc/code",
+      "content_excerpt": "Starter plan: $5 one-time credit (no card) — embeddings (mxbai-embed-large-v1), reranking, and multimodal search over PDF/image/doc/code",
+      "content_fingerprint": "be84fd188955d3045e36e23b8d7c11d8d4fd03d4",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-89d7e21ddd9c15dc3e5fc8f407b082e0",
+      "normalized_domain": "www.mixedbread.com",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "mixedbread",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://www.mixedbread.com/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "ovhcloud-ai-endpoints",
+      "claim": "Two Qwen3Guard models (Gen-8B and Gen-0.6B) are currently listed as Free in the catalog; access is available anonymously or with an API key tied to a Public Cloud project",
+      "content_excerpt": "Two Qwen3Guard models (Gen-8B and Gen-0.6B) are currently listed as Free in the catalog; access is available anonymously or with an API key tied to a Public Cloud project",
+      "content_fingerprint": "62be1a52201f6655312abe22f28871e5dc39cf72",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-8ab60cd57ec4251a505448b2c256e852",
+      "normalized_domain": "www.ovhcloud.com",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "ovhcloud-ai-endpoints",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "page",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "hume-ai",
+      "claim": "10,000 characters/month TTS (~10 minutes) on the Free plan",
+      "content_excerpt": "10,000 characters/month TTS (~10 minutes) on the Free plan",
+      "content_fingerprint": "94fc5385977161f3356991a0edb4b3b0db81cbc6",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-8d7b30fd31b8e8472deec70a1465fa18",
+      "normalized_domain": "www.hume.ai",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "hume-ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://www.hume.ai/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "speechify",
+      "claim": "50,000 characters/month TTS (hard cap) + 60 min/month voice agents",
+      "content_excerpt": "50,000 characters/month TTS (hard cap) + 60 min/month voice agents",
+      "content_fingerprint": "0dbee87767e30b2fa3c0fbd7481313b564b89d9a",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-98479d1f02fe1241c4f535512835554a",
+      "normalized_domain": "speechify.ai",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "speechify",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://speechify.ai/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "voicegain",
+      "claim": "$50 in free credits on signup (no credit card) — speech-to-text",
+      "content_excerpt": "$50 in free credits on signup (no credit card) — speech-to-text",
+      "content_fingerprint": "604238bac8ad329e7ae4a04417c23b725725562c",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-993cafe6d7b6d37e3dca908776a908d2",
+      "normalized_domain": "www.voicegain.ai",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "voicegain",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://www.voicegain.ai/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "unreal-speech",
+      "claim": "250,000 characters/month TTS (~6 hours of audio)",
+      "content_excerpt": "250,000 characters/month TTS (~6 hours of audio)",
+      "content_fingerprint": "6652ef83a084337b93fc20b26544e8b0c3d4d804",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-9f44e2e8ca8a91cfb3888f35268d13e7",
+      "normalized_domain": "unrealspeech.com",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "unreal-speech",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://unrealspeech.com/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "upstage",
+      "claim": "$10 in free credit on signup (no card) — Solar LLM (chat + embeddings) plus Document Parse / OCR / information extraction",
+      "content_excerpt": "$10 in free credit on signup (no card) — Solar LLM (chat + embeddings) plus Document Parse / OCR / information extraction",
+      "content_fingerprint": "44c760622715cb8c9bd57c351c48fc5f96bb03f2",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-a11093b6e110751bf6fa7a774922a94f",
+      "normalized_domain": "console.upstage.ai",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "upstage",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "docs",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://console.upstage.ai/docs/getting-started",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "smallest-ai",
+      "claim": "$10 in free credits with full access — TTS, STT, speech-to-speech and voice cloning",
+      "content_excerpt": "$10 in free credits with full access — TTS, STT, speech-to-speech and voice cloning",
+      "content_fingerprint": "0a6a57168e143ab9924ab0313f74d8137cd6e455",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-ab22af8cf3511514b7a6d5b453bb27c6",
+      "normalized_domain": "smallest.ai",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "smallest-ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://smallest.ai/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "ibm-watsonx",
+      "claim": "Lite plan: 300,000 tokens/month for foundation model inference, 20 CUH/month for ML tooling, 100 pages/month of document text extraction",
+      "content_excerpt": "Lite plan: 300,000 tokens/month for foundation model inference, 20 CUH/month for ML tooling, 100 pages/month of document text extraction",
+      "content_fingerprint": "4bde6473aa1bbca7939aa83a552168bd793594e3",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-acb2ec64319f06d0fd045b88d778a4cc",
+      "normalized_domain": "www.ibm.com",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "ibm-watsonx",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://www.ibm.com/docs/en/watsonx/saas?topic=cloud-watsonxai-runtime-plans",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "datalab",
+      "claim": "$20/month (work email) or $10/month (personal email) free usage allowance — OCR in 90+ languages, PDF-to-markdown, tables, forms and structured extraction",
+      "content_excerpt": "$20/month (work email) or $10/month (personal email) free usage allowance — OCR in 90+ languages, PDF-to-markdown, tables, forms and structured extraction",
+      "content_fingerprint": "0238be3887dd4647ace6f30f5b87b1ee790779dc",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-af05ce52d0601d5eab36d89700e52dde",
+      "normalized_domain": "documentation.datalab.to",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "datalab",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "docs",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://documentation.datalab.to/",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "moondream",
+      "claim": "$5/month usage credits in every workspace (Free plan) for the Moondream vision model — caption, query (VQA), detect, point",
+      "content_excerpt": "$5/month usage credits in every workspace (Free plan) for the Moondream vision model — caption, query (VQA), detect, point",
+      "content_fingerprint": "a5fb6899d89f5d1e3de8d6bec283c45f026a5669",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-b5a016ac1e6265e724a606c31eb68dca",
+      "normalized_domain": "moondream.ai",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "moondream",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://moondream.ai/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "mistral",
+      "claim": "\"Restrictive\" free tier explicitly for \"try and explore\" — official docs say to upgrade for \"actual projects and production use\"",
+      "content_excerpt": "\"Restrictive\" free tier explicitly for \"try and explore\" — official docs say to upgrade for \"actual projects and production use\"",
+      "content_fingerprint": "1e9046b9a6375c08c8572ef7f8d5852fd34fe32b",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-bfde3c38524490492d1b8af8611893f0",
+      "normalized_domain": "docs.mistral.ai",
+      "officiality": "OFFICIAL",
+      "provider_id": "mistral",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "docs",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://docs.mistral.ai/admin/billing-usage/usage-limits",
+      "validation_notes": [
+        "TA-002: anchor for 'mistral' allows this subdomain"
+      ]
+    },
+    {
+      "candidate_id": "ollama-cloud",
+      "claim": "$0 Free plan: access to cloud-hosted open models (Qwen, GPT-OSS, DeepSeek, etc.) via API",
+      "content_excerpt": "$0 Free plan: access to cloud-hosted open models (Qwen, GPT-OSS, DeepSeek, etc.) via API",
+      "content_fingerprint": "d90f9c6a4c7898be42cc3d91596da4310837d23b",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-c158786fd85df3dcb6134af63d12b785",
+      "normalized_domain": "docs.ollama.com",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "ollama-cloud",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "docs",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://docs.ollama.com/cloud",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "jina-ai",
+      "claim": "10M free tokens (one-time) across all models — embeddings (v3/v4), rerankers, classifier; plus a keyless Reader (r.jina.ai) for basic use",
+      "content_excerpt": "10M free tokens (one-time) across all models — embeddings (v3/v4), rerankers, classifier; plus a keyless Reader (r.jina.ai) for basic use",
+      "content_fingerprint": "1e65f42981cfd396f2e7f94982f655340cbf7683",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-c3fb2d77ef7b081203cf97487a8afab9",
+      "normalized_domain": "jina.ai",
+      "officiality": "OFFICIAL",
+      "provider_id": "jina-ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "page",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://jina.ai/embeddings",
+      "validation_notes": [
+        "TA-001: exact configured anchor domain for 'jina-ai'"
+      ]
+    },
+    {
+      "candidate_id": "unstructured",
+      "claim": "15,000 pages/month, resets monthly — document parsing/OCR across 50+ file types (layout, tables, generative OCR enrichment)",
+      "content_excerpt": "15,000 pages/month, resets monthly — document parsing/OCR across 50+ file types (layout, tables, generative OCR enrichment)",
+      "content_fingerprint": "fe6387bbce8fa67cb82ea49fe1dae629f9b9f3b1",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-c804f42c7d2cc14b65a5614884ea2118",
+      "normalized_domain": "unstructured.io",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "unstructured",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://unstructured.io/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "arli-ai",
+      "claim": "Free plan ($0): access to all text LLMs (Gemma, Qwen, etc.), capped at ~5 requests per 2-day window, 12K context, 1 request at a time",
+      "content_excerpt": "Free plan ($0): access to all text LLMs (Gemma, Qwen, etc.), capped at ~5 requests per 2-day window, 12K context, 1 request at a time",
+      "content_fingerprint": "efabc1d0b451d662c95c27eb8f2c6f6ee5e3b5b8",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-c9becf57d5bd89cdc7cd9c0740be1a56",
+      "normalized_domain": "www.arliai.com",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "arli-ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://www.arliai.com/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "ocr-space",
+      "claim": "25,000 conversions/month (Engine 1 & 2) plus 2,500 Engine 3 conversions/month; max 1 MB file, PDFs up to 3 pages",
+      "content_excerpt": "25,000 conversions/month (Engine 1 & 2) plus 2,500 Engine 3 conversions/month; max 1 MB file, PDFs up to 3 pages",
+      "content_fingerprint": "2d8fbcdfc200a7e1afe230afbf792c11904fdae5",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-d0b5fd2de1f0abe3f6265ec60ce6f8f9",
+      "normalized_domain": "ocr.space",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "ocr-space",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "page",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://ocr.space/OCRAPI",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "gladia",
+      "claim": "€50 in free credits on signup for speech-to-text (~80+ hrs pre-recorded or 60+ hrs real-time at current rates)",
+      "content_excerpt": "€50 in free credits on signup for speech-to-text (~80+ hrs pre-recorded or 60+ hrs real-time at current rates)",
+      "content_fingerprint": "180f14fe72fa2e981a69f198f145379b994b6316",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-d0c56253d1680b57b33c9e512604664d",
+      "normalized_domain": "www.gladia.io",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "gladia",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://www.gladia.io/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "siliconflow",
+      "claim": "Several models permanently free (e.g. Qwen2.5-7B-Instruct and others) at $0 cost, plus a $1 welcome credit for paid models",
+      "content_excerpt": "Several models permanently free (e.g. Qwen2.5-7B-Instruct and others) at $0 cost, plus a $1 welcome credit for paid models",
+      "content_fingerprint": "7d48aedf1ff1762b7aa10fa2d8e4ff0d3ab1def5",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-d1d32e7acd83e2469e04d86a6906fa8a",
+      "normalized_domain": "docs.siliconflow.cn",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "siliconflow",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "docs",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://docs.siliconflow.cn/en/userguide/rate-limits/rate-limit-and-upgradation",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "vercel-ai-gateway",
+      "claim": "Free tier with a monthly free credit covering a subset of models at lower rate limits",
+      "content_excerpt": "Free tier with a monthly free credit covering a subset of models at lower rate limits",
+      "content_fingerprint": "fffeed4079eed9cfd3f4079ff07444345a7eb5d8",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-e325a78c8e8ac13d34ddd644c4da40f8",
+      "normalized_domain": "vercel.com",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "vercel-ai-gateway",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://vercel.com/docs/ai-gateway/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "nlpcloud",
+      "claim": "$15 trial credit",
+      "content_excerpt": "$15 trial credit",
+      "content_fingerprint": "c73bf03eefb6d4797bd3c79835c4643be626857d",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-e452e47a20f1bf04619c86d8cd2d98c3",
+      "normalized_domain": "nlpcloud.com",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "nlpcloud",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://nlpcloud.com/pricing.html",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "llamaparse",
+      "claim": "Free plan: 10,000 credits/month (~10,000 pages in balanced parse mode at 1 credit/page)",
+      "content_excerpt": "Free plan: 10,000 credits/month (~10,000 pages in balanced parse mode at 1 credit/page)",
+      "content_fingerprint": "7f101ea495c89f182d190e892a2497c4a34760fe",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-e60ac4ac76e5fef8dd76bd6bc3245748",
+      "normalized_domain": "www.llamaindex.ai",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "llamaparse",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://www.llamaindex.ai/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "sambanova",
+      "claim": "Rate-limited free tier (applies when no payment method is linked) across all models",
+      "content_excerpt": "Rate-limited free tier (applies when no payment method is linked) across all models",
+      "content_fingerprint": "b8a5cc7c6bcf7891302cc2798b55708fdacb17c2",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-e6333c5720d7b8e9016670a7446ec2ce",
+      "normalized_domain": "cloud.sambanova.ai",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "sambanova",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://cloud.sambanova.ai/plans",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "groq",
+      "claim": "Open-weight models (Llama, Qwen, GPT-OSS) plus Whisper, no credit card required",
+      "content_excerpt": "Open-weight models (Llama, Qwen, GPT-OSS) plus Whisper, no credit card required",
+      "content_fingerprint": "077a6dcf448e1bc256289f8a83c8908954101d8d",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-e6f2bebe405b0c3db48804c128c20305",
+      "normalized_domain": "console.groq.com",
+      "officiality": "OFFICIAL",
+      "provider_id": "groq",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "docs",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://console.groq.com/docs/rate-limits",
+      "validation_notes": [
+        "TA-002: anchor for 'groq' allows this subdomain"
+      ]
+    },
+    {
+      "candidate_id": "ai-horde",
+      "claim": "Free crowdsourced text & image generation; anonymous API key '0000000000' (no registration), or register to earn kudos for priority",
+      "content_excerpt": "Free crowdsourced text & image generation; anonymous API key '0000000000' (no registration), or register to earn kudos for priority",
+      "content_fingerprint": "2bdc5508f785d0fea4bf1e1ba8af4a18680d31b1",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-e8c340a2e240d313cdbbdcbf1cf6d16b",
+      "normalized_domain": "aihorde.net",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "ai-horde",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "page",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://aihorde.net/",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "tencent-hunyuan",
+      "claim": "1,000,000 free tokens for Hunyuan text LLMs (hunyuan-a13b, turbos, translation & vision models), plus a separate 1,000,000-token allotment for hunyuan-embedding",
+      "content_excerpt": "1,000,000 free tokens for Hunyuan text LLMs (hunyuan-a13b, turbos, translation & vision models), plus a separate 1,000,000-token allotment for hunyuan-embedding",
+      "content_fingerprint": "bee29b00125f9652574ff60f9545db2ae41e449f",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-ec931478c1745856704be1b356d1f930",
+      "normalized_domain": "cloud.tencent.com",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "tencent-hunyuan",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "page",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://cloud.tencent.com/document/product/1729/97731",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "clarifai",
+      "claim": "One-time $5 credit across serverless models (GPT-OSS-120B, Claude, Llama), vision, embeddings and image generation",
+      "content_excerpt": "One-time $5 credit across serverless models (GPT-OSS-120B, Claude, Llama), vision, embeddings and image generation",
+      "content_fingerprint": "af9b79480a47b36baffdbddbf3899a655a1bd5a6",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-f11b4ca672628457ee9c3ed89ef0950d",
+      "normalized_domain": "docs.clarifai.com",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "clarifai",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "docs",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://docs.clarifai.com/control/account-billing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "contextual-ai",
+      "claim": "$25 in free credits on the on-demand plan, usable on the Rerank (rerank-v2) and Generate APIs",
+      "content_excerpt": "$25 in free credits on the on-demand plan, usable on the Rerank (rerank-v2) and Generate APIs",
+      "content_fingerprint": "71a585e99fd8762656e143a2dd92e4fc95affab6",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-f173830dffa97cdd63350bef9eee08da",
+      "normalized_domain": "contextual.ai",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "contextual-ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://contextual.ai/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "sarvam-ai",
+      "claim": "₹100 in free credits on signup, usable across all APIs including the Sarvam-M chat/LLM API and speech (STT/TTS)",
+      "content_excerpt": "₹100 in free credits on signup, usable across all APIs including the Sarvam-M chat/LLM API and speech (STT/TTS)",
+      "content_fingerprint": "a25a5fd87abfa7edba64de8aeee685eb7b745e31",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-f34bc62326824f975e6680c9ae2b86bf",
+      "normalized_domain": "docs.sarvam.ai",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "sarvam-ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://docs.sarvam.ai/api/getting-started/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "huggingface",
+      "claim": "Free CPU Basic + ZeroGPU for Spaces; Inference Providers has a monthly credit ($0.10/mo on Free plan, $2.00/mo on PRO/Team/Enterprise)",
+      "content_excerpt": "Free CPU Basic + ZeroGPU for Spaces; Inference Providers has a monthly credit ($0.10/mo on Free plan, $2.00/mo on PRO/Team/Enterprise)",
+      "content_fingerprint": "ddd5e0cfcac3f973ec30444c95f4295e0978c3a0",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-f5dd4d8e01983bb52636e5cd0490d030",
+      "normalized_domain": "huggingface.co",
+      "officiality": "OFFICIAL",
+      "provider_id": "huggingface",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://huggingface.co/docs/inference-providers/en/pricing",
+      "validation_notes": [
+        "TA-001: exact configured anchor domain for 'huggingface'"
+      ]
+    },
+    {
+      "candidate_id": "novita",
+      "claim": "$100 Sandbox credits, valid for 90 days",
+      "content_excerpt": "$100 Sandbox credits, valid for 90 days",
+      "content_fingerprint": "a0f880712cbe0bf4981558ecfcaa1e2615c1890c",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-f97d0296226000f0f9c043468a2058f5",
+      "normalized_domain": "novita.ai",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "novita",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://novita.ai/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "veryfi",
+      "claim": "Free Forever plan: up to 100 documents/month — OCR plus structured data extraction (receipts, invoices, and 100+ document types)",
+      "content_excerpt": "Free Forever plan: up to 100 documents/month — OCR plus structured data extraction (receipts, invoices, and 100+ document types)",
+      "content_fingerprint": "c497ef00725c697a910f07156f20b376a6a54716",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-fba3bfe9f2c6a6688502a3577795b60e",
+      "normalized_domain": "www.veryfi.com",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "veryfi",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "pricing",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://www.veryfi.com/pricing",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    },
+    {
+      "candidate_id": "modelscope",
+      "claim": "~2,000 free API calls/day across open-weight models (Qwen3, DeepSeek, GLM, Llama, etc.) via API-Inference",
+      "content_excerpt": "~2,000 free API calls/day across open-weight models (Qwen3, DeepSeek, GLM, Llama, etc.) via API-Inference",
+      "content_fingerprint": "2bf0702bcf35b3a543708299218b2bad3c4be6d6",
+      "effective_at": "2026-09-01T00:00:00Z",
+      "evidence_id": "ev-fdee4b27de2c15c4b24293bc659d62fa",
+      "normalized_domain": "www.modelscope.cn",
+      "officiality": "LIKELY_OFFICIAL",
+      "provider_id": "modelscope",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T00:00:00Z",
+      "source_type": "docs",
+      "supported_fields": [],
+      "title": "free-llm-api-hub v2.9.0",
+      "url": "https://www.modelscope.cn/docs/model-service/API-Inference/intro",
+      "validation_notes": [
+        "TA-005: no trust anchor configured for this provider; cannot be OFFICIAL"
+      ]
+    }
+  ]
+}
