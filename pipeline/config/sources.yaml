@@ -1,0 +1,132 @@
+# Free Token Hunter — discovery sources and official-domain trust anchors
+#
+# Trust anchors are version-controlled and reviewed by hand. Imported URLs,
+# search ranking, URL text, model output, TLS validity, and name similarity
+# can NEVER create an anchor. LIKELY_OFFICIAL and THIRD_PARTY evidence never
+# confirm a provider.
+
+discovery:
+  # GitHub repository search queries (TASK-005)
+  github:
+    queries:
+      - "free llm api"
+      - "free ai api key"
+      - "free llm api tier"
+      - "free ai api credit"
+      - "free gpt api"
+      - "free llm playground api"
+    results_per_query: 10
+    max_total_results: 50
+
+  # Curated immutable source references (TASK-006)
+  curated:
+    sources:
+      - name: awesome-free-ai-coding
+        url: https://raw.githubusercontent.com/mvalentsev/awesome-free-ai-coding/main/README.md
+        kind: readme
+      - name: free-llm-api-hub
+        url: https://raw.githubusercontent.com/pacocartones/free-llm-api-hub/main/data/providers.json
+        kind: structured
+
+  # Hacker News search (TASK-006)
+  hackernews:
+    base_url: https://hn.algolia.com/api/v1/search
+    max_results: 20
+
+  # Reddit public search JSON (remaining-work T5, 2026-09-21).
+  # Credential-free public endpoint; observations only, never verification.
+  reddit:
+    enabled: true
+    base_url: https://www.reddit.com/search.json
+    max_results: 25
+    # subreddit: null  # optionally narrow discovery to one subreddit
+
+  # X (Twitter) official v2 recent search (remaining-work T5, 2026-09-21).
+  # X has no official free search API: without X_BEARER_TOKEN the adapter
+  # stays disabled and contributes zero observations.
+  x:
+    base_url: https://api.twitter.com/2/tweets/search/recent
+    max_results: 10
+
+  # Web search (TASK-006); disabled without credentials
+  web_search:
+    enabled: false
+    base_url: https://search.example/api
+
+# Official-domain trust anchors (spec schema: provider_id, domains[],
+# allow_subdomains, github_organizations[], github_repositories[], provenance,
+# reviewed_at).
+#
+# NOTE: the pinned upstream import NEVER writes here. Anchors are only added by
+# the project maintainers after manual review. Only anchored evidence may be
+# OFFICIAL; LIKELY_OFFICIAL/THIRD_PARTY never confirm a provider.
+trust_anchors:
+  - provider_id: google-gemini
+    domains: [ai.google.dev, cloud.google.com]
+    allow_subdomains: true
+    provenance: "manual review of ai.google.dev (Gemini API docs), 2026-09-01"
+    reviewed_at: "2026-09-01"
+  - provider_id: groq
+    domains: [groq.com]
+    allow_subdomains: true
+    github_organizations: [groq]
+    provenance: "manual review of console.groq.com docs, 2026-09-01"
+    reviewed_at: "2026-09-01"
+  - provider_id: openrouter
+    domains: [openrouter.ai]
+    allow_subdomains: true
+    provenance: "manual review of openrouter.ai docs, 2026-09-01"
+    reviewed_at: "2026-09-01"
+  - provider_id: cohere
+    domains: [cohere.com]
+    allow_subdomains: true
+    github_organizations: [cohere-ai]
+    provenance: "manual review of docs.cohere.com, 2026-09-01"
+    reviewed_at: "2026-09-01"
+  - provider_id: mistral
+    domains: [mistral.ai]
+    allow_subdomains: true
+    github_organizations: [mistralai]
+    provenance: "manual review of docs.mistral.ai, 2026-09-01"
+    reviewed_at: "2026-09-01"
+  - provider_id: huggingface
+    domains: [huggingface.co]
+    allow_subdomains: true
+    github_organizations: [huggingface]
+    provenance: "manual review of huggingface.co docs, 2026-09-01"
+    reviewed_at: "2026-09-01"
+  - provider_id: cloudflare-workers-ai
+    domains: [cloudflare.com]
+    allow_subdomains: true
+    github_organizations: [cloudflare]
+    provenance: "manual review of developers.cloudflare.com, 2026-09-01"
+    reviewed_at: "2026-09-01"
+  - provider_id: deepgram
+    domains: [deepgram.com]
+    allow_subdomains: true
+    github_organizations: [deepgram]
+    provenance: "manual review of deepgram.com pricing, 2026-09-01"
+    reviewed_at: "2026-09-01"
+  - provider_id: assemblyai
+    domains: [assemblyai.com]
+    allow_subdomains: true
+    github_organizations: [AssemblyAI]
+    provenance: "manual review of assemblyai.com pricing, 2026-09-01"
+    reviewed_at: "2026-09-01"
+  - provider_id: jina-ai
+    domains: [jina.ai]
+    allow_subdomains: true
+    github_organizations: [jina-ai]
+    provenance: "manual review of jina.ai, 2026-09-01"
+    reviewed_at: "2026-09-01"
+
+# Exact first-party pages selected by manual review. When present for a
+# provider, these replace imported and guessed evidence URLs; the trust-anchor
+# validator still decides officiality after a safe fetch.
+reviewed_evidence:
+  assemblyai:
+    - url: https://support.assemblyai.com/articles/5370767329-can-i-sign-up-for-free
+      source_type: pricing
+  cohere:
+    - url: https://cohere.com/pricing
+      source_type: pricing

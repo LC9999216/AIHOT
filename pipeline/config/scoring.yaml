@@ -1,0 +1,57 @@
+# Free Token Hunter — deterministic scoring configuration (V1)
+#
+# These exact values are fixed by the specification (AGENTS.md section 11 and
+# CODEX_TASKS_000_010.md TASK-010). Do not change thresholds or weights.
+# A configuration digest is derived from this file for every ScoreResult.
+
+score_version: v1
+
+verification_confidence:
+  threshold: 80
+  base_points:
+    official_pricing: 45
+    official_api_docs: 40
+    official_product_docs: 35
+    official_blog: 25
+    official_github: 20
+  factors:
+    second_consistent_source: 10
+    explicit_free_wording: 20
+    explicit_programmatic_api: 15
+    retrieval_within_90_days: 10
+    critical_fields_grounded: 5
+    ambiguous_wording: -20
+    evidence_older_180_days: -20
+    missing_usable_date: -10
+    unresolved_contradiction: -50
+  clamp: [0, 100]
+
+free_score:
+  clamp: [0, 100]
+  time_buckets:
+    ongoing: 25
+    expiry_gt_90_days: 15
+    expiry_31_to_90_days: 10
+    expiry_8_to_30_days: 5
+    expiry_0_to_7_days: 0
+  quota_modes:
+    unmetered: 25
+    renewing: 20
+    one_time: 5
+  access_methods:
+    keyless: 10
+  requirements:
+    no_card: 10
+    card_required: -10
+    no_phone: 5
+    phone_required: -5
+  api:
+    openai_compatible: 10
+  evidence:
+    current_model_list: 5
+    documented_limits: 5
+  commercial:
+    allowed: 10
+    forbidden: -15
+  regional:
+    material_restriction: -10
