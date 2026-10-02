@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "free-token-hunter"
+version = "0.1.0"
+description = "Discover and verify free AI/LLM API offers into a reproducible provider registry (stage one)."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [{ name = "Free Token Hunter" }]
+keywords = ["ai", "llm", "free-tier", "registry", "discovery"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries",
+]
+dependencies = [
+    "PyYAML>=6.0",
+    "pydantic>=2.0",
+]
+
+[project.scripts]
+hunter = "hunter.cli:main"
+hunter-pool-control = "hunter.pool_service:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+stage2 = [
+    "freellmpool==0.13.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+hunter = ["py.typed"]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"
