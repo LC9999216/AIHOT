@@ -39,12 +39,15 @@ export const SCHEDULES: Scheduled[] = [
   { name: "content.sweep", cron: "*/5 * * * *", run: sweepUnprocessed },
   // Full-text translations of newly selected items (model calls; off with MODEL_CALLS_ENABLED=false).
   { name: "content.translate", cron: "*/5 * * * *", run: () => translatePending() },
-  { name: "hot.rank", cron: "*/5 * * * *", run: () => computeHotRanking() },
-  { name: "hot.snapshot", cron: "2 * * * *", run: () => snapshotHeat() },
+  // FTH: disabled -- hot ranking is owned by sync/sync-fth.sh (fth-heat-v1), not the news-event algorithm.
+  // { name: "hot.rank", cron: "*/5 * * * *", run: () => computeHotRanking() },
+  // { name: "hot.snapshot", cron: "2 * * * *", run: () => snapshotHeat() },
   { name: "stories.status", cron: "7 * * * *", run: refreshStoryStatuses },
   { name: "stories.links", cron: "12 * * * *", run: linkRelatedStories },
-  { name: "reports.daily", cron: "0 8 * * *", missed: "once", run: () => composeDaily(beijingDate(Date.now())) },
-  { name: "reports.weekly", cron: "0 10 * * 1", missed: "once", run: () => composeWeekly(isoWeekLabel(addDays(beijingDate(Date.now()), -7))) },
+  // FTH: disabled -- daily report is generated deterministically (origin=manual).
+  // { name: "reports.daily", cron: "0 8 * * *", missed: "once", run: () => composeDaily(beijingDate(Date.now())) },
+  // FTH: disabled (see above).
+  // { name: "reports.weekly", cron: "0 10 * * 1", missed: "once", run: () => composeWeekly(isoWeekLabel(addDays(beijingDate(Date.now()), -7))) },
   {
     name: "reports.monthly",
     cron: "30 10 1 * *",
@@ -54,7 +57,8 @@ export const SCHEDULES: Scheduled[] = [
       return composeMonthly(m === 1 ? `${y - 1}-12` : `${y}-${String(m - 1).padStart(2, "0")}`);
     },
   },
-  { name: "reports.catch-up", cron: "15 * * * *", run: () => catchUpReports() },
+  // FTH: disabled (see above).
+  // { name: "reports.catch-up", cron: "15 * * * *", run: () => catchUpReports() },
   { name: "ops.retention", cron: "30 3 * * *", missed: "once", run: () => dailyRetention() },
   { name: "sources.icons", cron: "40 4 * * *", missed: "once", run: () => refreshSourceIcons() },
   // IndexNow for new indexable pages (off unless INDEXNOW_SUBMIT_ENABLED).
